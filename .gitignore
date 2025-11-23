@@ -1,0 +1,25 @@
+# Ignore large wildfire dataset files
+data/*.sqlite
+data/*.csv
+data/*.geojson
+data/*.parquet
+
+# Ignore NASA POWER downloads
+data/weather_*.csv
+data/drought_*.csv
+
+# Ignore Python virtual environments
+venv/
+.env/
+wildfire/
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
